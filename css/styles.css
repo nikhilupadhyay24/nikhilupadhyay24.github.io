@@ -32,7 +32,7 @@ body {
   .custom-navbar .nav li a {
     font-size: 14px;
     font-weight: 500;
-    color: black;
+    color: #777777;
 	text-align:center;
     letter-spacing: -0.5px;
     padding-right: 22px;
@@ -41,7 +41,7 @@ body {
 
   .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #a43f49;
+    color: black;
   }
 
   .custom-navbar .navbar-nav > li > a:hover,
