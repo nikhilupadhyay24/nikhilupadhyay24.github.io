@@ -51,7 +51,7 @@ body {
 
   .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #a43f49;
+    color: #777777;
   }
 
   .custom-navbar .navbar-toggle {
