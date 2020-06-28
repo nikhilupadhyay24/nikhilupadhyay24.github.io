@@ -138,6 +138,7 @@ body {
 }
 
 .section .heading {
+  text-align:center;
   margin-top: 0;
   margin-bottom: 30px;
   color: #545e69;
@@ -145,9 +146,23 @@ body {
 }
 
 .section .content .more-link .svg-inline--fa {
+  
   margin-right: 5px;
   font-size: 14px;
   position: relative;
   top: -2px;
 }
+
+/*Contact*/
+.inner{
+  background: #000;
+
+}
+.sectioncontact{
+  color: #fff;
+  width:100%;
+	
+}
+
+
 
