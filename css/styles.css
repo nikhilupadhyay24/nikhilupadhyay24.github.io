@@ -61,6 +61,8 @@ body {
 
   .custom-navbar .navbar-toggle {
     background-color: transparent;
+	border-style:solid;
+	border-radius:10px
   }
 
   .custom-navbar .navbar-toggle .icon-bar {
@@ -151,17 +153,6 @@ body {
   font-size: 14px;
   position: relative;
   top: -2px;
-}
-
-/*Contact*/
-.inner{
-  background: #000;
-
-}
-.sectioncontact{
-  color: #fff;
-  width:100%;
-	
 }
 
 
