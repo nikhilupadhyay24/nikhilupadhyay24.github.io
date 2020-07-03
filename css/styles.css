@@ -14,12 +14,13 @@ body {
   }
 
   .custom-navbar .navbar-brand {
-    
+	
     color: Black;
     font-size: 25px;
     font-weight: 500;
     letter-spacing: -1px;
-  }
+ }
+
 
   .top-nav-collapse {
     background: White;
