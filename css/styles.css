@@ -129,6 +129,7 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   
+  
 }
 
 .section {
@@ -136,6 +137,8 @@ body {
 }
 
 .section .section-inner {
+  border-radius:10px;
+  box-shadow: 0 10px 30px black;
   background: #fff;
   padding: 30px;
   opacity:80%;
@@ -148,7 +151,9 @@ body {
   color: #545e69;
   font-size: 24px;
 }
-
+.content{
+  color:Black;
+}
 .section .content .more-link .svg-inline--fa {
   
   margin-right: 5px;
