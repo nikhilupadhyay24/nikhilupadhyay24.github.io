@@ -108,12 +108,13 @@ body{
    
   .section {
     color: #fff;
-    right: 1%;
-    left: 1%;
+    background-color:Grey;
     position: relative;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     padding-bottom: 80px;
-   
+	/*background:url(../assets/images/profile.jpg) no-repeat left;
+	background-size:cover;*/
+   clip-path:polygon(0% 0%,100% 0%,100% 90%,0% 100%);
 }
 
 .section-heading {
@@ -204,5 +205,25 @@ contact
   margin:5px 5px;
 }
 
-/**/
+
+.progress{
+  position:relative;
+  height:25px;
+}
+.progress > .progress-type{
+  position:absolute;
+  left:0px;
+  width:15%;
+  font-weight:500;
+  padding:3px 30px 2px 10px;
+  color:rgb(255,255,255);
+  background-color:rgb(25,25,25,0.2);
+  }
+
+  .progress > .progress-completed{
+  position:absolute;
+  right:0px;
+  font-weight:500;
+  padding:3px 10px 2px;
+  }
 
