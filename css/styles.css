@@ -189,9 +189,9 @@ contact
 /**/
 
     body{
-  background-size: 10px 10px;
+  background-size: 20px 20px;
   background-image:
-    linear-gradient(to right, #eee 0.5px, transparent 1px),
+    linear-gradient(to right, #eee 1px, transparent 1px),
     linear-gradient(to bottom,#eee 1px, transparent 1px);
 	
 }
