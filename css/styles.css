@@ -6,18 +6,21 @@
     background-size: cover;
     width: 100%;
 }*/
+body{
+  background-color:#45a29e;
+}
 .bg{
   background-size: 50px 50px;
   background-image:
-    linear-gradient(to right, #eee 1px, transparent 1px),
-    linear-gradient(to bottom,#eee 1px, transparent 1px);
+    linear-gradient(to right, #45ABA8 1px, transparent 1px),
+    linear-gradient(to bottom,#45ABA8 1px, transparent 1px);
   
 }
 .bgdetail{
   background-size: 10px 10px;
   background-image:
-    linear-gradient(to right, #eee 0.2px, transparent 0.8px),
-    linear-gradient(to bottom,#eee 0.2px, transparent 0.8px);
+    linear-gradient(to right, #45ABA8 0.2px, transparent 0.8px),
+    linear-gradient(to bottom,#45ABA8 0.2px, transparent 0.8px);
   
 }
 
@@ -25,12 +28,12 @@
     border: none;
     margin-bottom: 0;
     padding: 5px 0;
-	background-color:White;
+	background-color:#1f2833;
   }
 
   .custom-navbar .navbar-brand {
 	
-    color: Black;
+    color: #66fcf1;
     font-size: 25px;
     font-weight: 500;
     letter-spacing: -1px;
@@ -83,7 +86,7 @@
   }
 
   .custom-navbar .navbar-toggle .icon-bar {
-    background: black;
+    background: #66fcf1;
     border-color: transparent;
   }
 
@@ -146,17 +149,19 @@
   
 }
 .right {
+  background-color:#E35A51;
   margin-bottom: 0px;
   clip-path:polygon(0% 0%,100% 10%,100% 90%,0% 100%);
 }
 
 .left {
+  background-color:#66fcf1;
   margin-bottom: 0px;
   clip-path:polygon(0% 10%,100% 0%,100% 100%,0% 90%);
 }
 
 .section-inner {
-  background: grey;
+  
   padding: 30px;
   
 }
@@ -189,7 +194,7 @@ contact
   padding-bottom:5px;
   padding-left:5px;
   padding-right:5px;
-  background-color:Grey;
+  background-color:#1f2833;
   text-align:center;
   color:Black; 
 }
