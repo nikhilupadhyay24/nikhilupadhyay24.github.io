@@ -93,7 +93,7 @@ body{
   @media(min-width:768px) {
     .custom-navbar {
       border-bottom: 0;
-      background:White; 
+      background:#1f2833; 
     }
 
     .custom-navbar.top-nav-collapse {
