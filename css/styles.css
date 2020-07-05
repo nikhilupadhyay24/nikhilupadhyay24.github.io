@@ -166,7 +166,8 @@ body {
 contact
 */
 .contactme{
-  padding-top:5px;
+  clip-path: polygon(0% 0%, 100% 50px, 100% 100%, 0% 100%);
+  padding-top:50px;
   padding-bottom:5px;
   padding-left:5px;
   padding-right:5px;
@@ -179,5 +180,6 @@ contact
 .socialicon{
   margin:5px 5px;
 }
-/**/
+/*}*/
+
 
