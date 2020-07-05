@@ -1,11 +1,11 @@
-body {
+/*body {
     background: url(../assets/images/page-bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-}
+}*/
   .custom-navbar {
     border: none;
     margin-bottom: 0;
@@ -125,25 +125,30 @@ body {
 
 /*box*/
 .sections-wrapper {
-  padding-top: 60px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 1px;
   
   
 }
-
-.skillsection {
+.right {
   margin-bottom: 0px;
+  clip-path:polygon(0% 0%,100% 10%,100% 90%,0% 100%);
 }
 
-.skillsection .section-inner {
-  border-radius:10px;
+.left {
+  margin-bottom: 0px;
+  clip-path:polygon(0% 10%,100% 0%,100% 100%,0% 90%);
+}
+
+.section-inner {
+  
   box-shadow: 0 10px 30px black;
-  background: #fff;
+  background: #A3A3A3;
   padding: 30px;
   opacity:80%;
 }
 
-.skillsection .heading {
+.heading {
   text-align:center;
   margin-top: 0;
   margin-bottom: 30px;
@@ -153,8 +158,8 @@ body {
 .content{
   color:Black;
 }
-.skillsection .content .more-link .svg-inline--fa {
-  
+.content .more-link .svg-inline--fa {
+
   margin-right: 5px;
   font-size: 14px;
   position: relative;
@@ -166,12 +171,12 @@ body {
 contact
 */
 .contactme{
-  clip-path: polygon(0% 0%, 100% 50px, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 15%, 100% 100%, 0% 100%);
   padding-top:50px;
   padding-bottom:5px;
   padding-left:5px;
   padding-right:5px;
-  background-color:White;
+  background-color:Grey;
   text-align:center;
   color:Black; 
 }
