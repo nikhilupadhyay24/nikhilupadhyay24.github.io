@@ -6,6 +6,21 @@
     background-size: cover;
     width: 100%;
 }*/
+.bg{
+  background-size: 50px 50px;
+  background-image:
+    linear-gradient(to right, #eee 1px, transparent 1px),
+    linear-gradient(to bottom,#eee 1px, transparent 1px);
+  
+}
+.bgdetail{
+  background-size: 10px 10px;
+  background-image:
+    linear-gradient(to right, #eee 0.2px, transparent 0.8px),
+    linear-gradient(to bottom,#eee 0.2px, transparent 0.8px);
+  
+}
+
   .custom-navbar {
     border: none;
     margin-bottom: 0;
@@ -186,10 +201,3 @@ contact
 
 /**/
 
-    body{
-  background-size: 40px 40px;
-  background-image:
-    linear-gradient(to right, #eee 1px, transparent 1px),
-    linear-gradient(to bottom,#eee 1px, transparent 1px);
-	
-}
