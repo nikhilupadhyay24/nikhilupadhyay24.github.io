@@ -209,14 +209,19 @@ contact
 .progress{
   position:relative;
   height:25px;
+  
+}
+.progress-bar{
+  background-color:#c5c6c7;
 }
 .progress > .progress-type{
   position:absolute;
   left:0px;
-  width:15%;
+  width:75px;
   font-weight:500;
-  padding:3px 30px 2px 10px;
-  color:rgb(255,255,255);
+  padding:3px 30px 2px 4px;
+  
+  color:#1f2833;
   background-color:rgb(25,25,25,0.2);
   }
 
@@ -225,5 +230,8 @@ contact
   right:0px;
   font-weight:500;
   padding:3px 10px 2px;
+  color:#1f2833;
   }
 
+  
+  
