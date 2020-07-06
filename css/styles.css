@@ -110,11 +110,11 @@ body{
     color: #fff;
     background-color:Grey;
     position: relative;
-    /*min-height: 100vh;*/
+    min-height: 100vh;
     padding-bottom: 80px;
 	/*background:url(../assets/images/profile.jpg) no-repeat left;
 	background-size:cover;*/
-   clip-path:polygon(0% 0%,100% 0%,100% 90%,0% 100%);
+   
 }
 
 .section-heading {
@@ -148,6 +148,12 @@ body{
   padding-bottom: 1px;
   
   
+}
+.top{
+  background-color:#66fcf1;
+  margin-bottom: 0px;
+  clip-path:polygon(0% 0%,100% 0%,100% 100%,0% 90%);
+  margin-top:20px;
 }
 .right {
   background-color:#E35A51;
