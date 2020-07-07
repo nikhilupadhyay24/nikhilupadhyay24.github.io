@@ -112,10 +112,12 @@ body{
     position: relative;
     min-height: 100vh;
     padding-bottom: 80px;
-	/*background:url(../assets/images/profile.jpg) no-repeat center;
-	background-size:cover;*/
-   
-}
+	}
+	/*@media(min-width:768px){
+	  .section{
+	background:url(../assets/images/profile.jpg) no-repeat center;
+	background-size:cover;
+   }}*/
 
 .section-heading {
     text-align: center;
