@@ -250,6 +250,7 @@ contact
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  width:50%;
 }
 
 a.buttoninside:hover, a.buttoninside:active {
@@ -257,10 +258,9 @@ a.buttoninside:hover, a.buttoninside:active {
   color:#1f2833;
 }
 .buttonlay{
-  margin:10px;
-  margin-top:10px;
-  margin-bottom:10x;
+  padding:10px; 
 }
 .button{
   margin-top:30px;
+  
 }
