@@ -82,7 +82,8 @@ body{
   .custom-navbar .navbar-toggle {
     background-color: transparent;
 	border-style:solid;
-	border-radius:10px
+	border-radius:10px;
+	border-color:#66fcf1;
   }
 
   .custom-navbar .navbar-toggle .icon-bar {
