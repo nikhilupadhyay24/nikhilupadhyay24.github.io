@@ -8,6 +8,7 @@
 }*/
 body{
   background-color:#45a29e;
+  font-family: 'Roboto Mono', monospace;
 }
 .bg{
   background-size: 50px 50px;
@@ -113,6 +114,7 @@ body{
     position: relative;
     min-height: 100vh;
     padding-bottom: 80px;
+	font-family: 'Roboto Mono', monospace;
 	}
 	/*@media(min-width:768px){
 	  .section{
@@ -265,3 +267,4 @@ a.buttoninside:hover, a.buttoninside:active {
   margin-top:30px;
   
 }
+
