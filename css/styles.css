@@ -127,7 +127,7 @@ body{
 }
 
 
-.section-heading .line-dec {
+ .line-dec {
     width: 60px;
     height: 3px;
     background-color: #a43f49;
@@ -175,7 +175,6 @@ body{
 .heading {
   text-align:center;
   margin-top: 0;
-  margin-bottom: 30px;
   color: #545e69;
   font-size: 24px;
 }
