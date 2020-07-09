@@ -298,3 +298,7 @@ a.buttoninside:hover, a.buttoninside:active {
   padding-right:20px;
   text-align:center;
 }
+
+.flex{
+  display:flex;
+}
