@@ -292,7 +292,9 @@ a.buttoninside:hover, a.buttoninside:active {
   
 }
 .aboutcontent{
-  margin-top:16em;
+  margin-top:15.001em;
   padding-bottom:50px;
+  padding-left:20px;
+  padding-right:20px;
   text-align:center;
 }
