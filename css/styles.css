@@ -278,6 +278,16 @@ a.buttoninside:hover, a.buttoninside:active {
  
 }
 
-.avatarcenter{
+.profile__avatar {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  overflow: hidden;
+  width: 4.5em;
+  height: 4.5em;
+  display: block;
   
 }
+
