@@ -296,38 +296,49 @@ a.buttoninside:hover, a.buttoninside:active {
   text-align:center;
 }
 
-.brand-area{
-    padding: 1rem 20rem;
-    margin-bottom: 4rem;
+
+
+
+
+.row {
+  margin: 8px -16px;
 }
 
-.brand-area .first-row .col-lg-4{
-    display: flex;
-    justify-content: center;
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
 }
 
-.brand-area .first-row .col-lg-4 > .single-brand{
-    border: 1px solid var(--border-color);
-    text-align: center;
-    padding: 1.8rem 0rem;
-    margin: .9rem 0;
-    width: 180px;
-    height: 100px;
-    cursor: pointer;
-    transition: transform .4s ease;
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
 }
 
-.brand-area .first-row .col-lg-4 > .single-brand > img{
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.portcontent {
+  background-color: white;
+  border-radius:10px;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
     width: 50%;
+  }
 }
 
-.brand-area .first-row .col-lg-4 > .single-brand:hover{
-    box-shadow: var(--box-shadow);
-    transform: scale(1.1);
-}
-
-.brand-area .first-row .col-lg-4 > .single-brand:hover > img{
-    filter: brightness(0.15);
-}
-
-
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }}
