@@ -115,11 +115,7 @@ body{
     min-height: 100vh;
     padding-bottom: 80px;
 	}
-	/*@media(min-width:768px){
-	  .section{
-	background:url(../assets/images/profile.jpg) no-repeat center;
-	background-size:cover;
-   }}*/
+	
 
 .section-heading {
     text-align: center;
@@ -157,6 +153,7 @@ body{
   margin-bottom: 0px;
   clip-path:polygon(0% 0%,100% 0%,100% 100%,0% 90%);
   margin-top:20px;
+  
 }
 .right {
   background-color:#E35A51;
@@ -299,6 +296,24 @@ a.buttoninside:hover, a.buttoninside:active {
   text-align:center;
 }
 
-.flex{
-  display:flex;
+
+.console-container {
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
 }
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}*/
