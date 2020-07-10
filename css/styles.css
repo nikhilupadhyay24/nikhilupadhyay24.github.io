@@ -132,6 +132,7 @@ body{
     height: 3px;
     background-color: #a43f49;
     margin: 10px auto;
+	margin-bottom:40px;
 }
 
 .section-heading span {
@@ -148,27 +149,38 @@ body{
   
   
 }
-.top{
+.blue-section{
   background-color:#66fcf1;
-  margin-bottom: 0px;
-  clip-path:polygon(0% 0%,100% 0%,100% 100%,0% 90%);
-  margin-top:20px;
-  
 }
-.right {
+.red-section {
   background-color:#E35A51;
-  margin-bottom: 0px;
-  clip-path:polygon(0% 0%,100% 10%,100% 90%,0% 100%);
 }
 
-.left {
+.blue-top{
   background-color:#66fcf1;
-  margin-bottom: 0px;
-  clip-path:polygon(0% 10%,100% 0%,100% 100%,0% 90%);
+  clip-path:polygon(0% 83.34%,100% 0%,100% 100%,0% 100%);
+  height:60px;
+  margin-bottom:-10px;
 }
-
+.blue-bottom{
+  background-color:#66fcf1;
+  clip-path:polygon(0% 0%,100% 0%,100% 100%,0% 16.66%);
+  height:60px;
+  margin-top:-10px;
+}
+.red-top{
+  background-color:#e35a51;
+  clip-path:polygon(0% 0%,100% 83.34%,100% 100%,0% 100%);
+  height:60px;
+  margin-bottom:-10px;
+}
+.red-bottom{
+  background-color:#e35a51;
+  clip-path:polygon(0% 0%,100% 0%,100% 16.66%,0% 100%);
+  height:60px;
+  margin-top:-10px;
+}
 .section-inner {
-  
   padding: 30px;
   
 }
@@ -194,8 +206,13 @@ body{
 /*
 contact
 */
+.contactme-top{
+  clip-path: polygon(0% 0%, 100% 83.34%, 100% 100%, 0% 100%);
+  background-color:#1f2833;
+  height:60px;
+  margin-bottom:-10px;
+}
 .contactme{
-  clip-path: polygon(0% 0%, 100% 15%, 100% 100%, 0% 100%);
   padding-top:50px;
   padding-bottom:50px;
   padding-left:5px;
@@ -204,7 +221,6 @@ contact
   text-align:center;
   color:Black; 
 }
-
 /*social icon*/
 .socialicon{
   margin:5px 5px;
