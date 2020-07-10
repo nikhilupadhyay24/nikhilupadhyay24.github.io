@@ -320,7 +320,11 @@ a.buttoninside:hover, a.buttoninside:active {
 
 
 
-
+.portfolio-image{
+  width:100%;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+}
 .row {
   margin: 8px -16px;
 }
@@ -348,7 +352,10 @@ a.buttoninside:hover, a.buttoninside:active {
 .portcontent {
   background-color: white;
   border-radius:10px;
-  padding: 10px;
+  
+}
+.portfolio-detail{
+  padding:10px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -363,3 +370,4 @@ a.buttoninside:hover, a.buttoninside:active {
   .column {
     width: 100%;
   }}
+ 
