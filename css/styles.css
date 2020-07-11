@@ -111,7 +111,7 @@ body {
     background-color:#1f2833;
     position: relative;
     min-height: 100vh;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
 	}
 	
 
@@ -277,12 +277,12 @@ a.buttoninside:hover, a.buttoninside:active {
   padding:10px; 
 }
 .button{
-  margin-top:30px;
+  margin-top:5em;
   
 }
 
 .mainheading{
-  font-size:80px;
+  font-size:20vw;
   text-align:left;
 }
 
@@ -369,4 +369,6 @@ a.buttoninside:hover, a.buttoninside:active {
   .column {
     width: 100%;
   }}
- 
+ .arrow-down{
+   margin-top:5em;
+ }
