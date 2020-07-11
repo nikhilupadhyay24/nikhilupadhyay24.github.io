@@ -51,7 +51,7 @@ body {
   .custom-navbar .nav li a {
     font-size: 14px;
     font-weight: 500;
-    color: #777777;
+    color: #66fcf1;
 	text-align:center;
     letter-spacing: -0.5px;
     padding-right: 22px;
@@ -60,7 +60,7 @@ body {
 
   .custom-navbar .nav li a:hover {
     background: transparent;
-    color: black;
+    color: #45a29e;
   }
 
   .custom-navbar .navbar-nav > li > a:hover,
@@ -190,7 +190,7 @@ body {
 .heading {
   text-align:center;
   margin-top: 0;
-  color: #545e69;
+  color: Black;
   font-size: 24px;
 }
 .content{
@@ -236,12 +236,12 @@ contact
   
 }
 .progress-bar{
-  background-color:#c5c6c7;
+  background-color:#45a29e;
 }
 .progress > .progress-type{
   position:absolute;
   left:0px;
-  width:75px;
+  
   font-weight:500;
   padding:3px 30px 2px 4px;
   
