@@ -285,10 +285,7 @@ a.buttoninside:hover, a.buttoninside:active {
   
 }
 
-.mainheading{
-  font-size:20vw;
-  text-align:left;
-}
+
 
 .avatar {
 	width: 70%;
@@ -372,7 +369,12 @@ a.buttoninside:hover, a.buttoninside:active {
 @media screen and (max-width: 768px) {
   .column {
     width: 100%;
-  }}
+  }
+  .mainheading{
+  font-size:20vw;
+  text-align:left;
+}
+  }
  .arrow-down{
    margin-top:5em;
  }
