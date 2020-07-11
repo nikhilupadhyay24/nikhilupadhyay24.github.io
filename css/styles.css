@@ -1,16 +1,12 @@
-/*body {
+body {
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-}*/
-body{
   background-color:#45a29e;
   font-family: 'Roboto Mono', monospace;
-  justify-content:center;
-  align-item:center;
 }
 .bg{
   background-size: 50px 50px;
