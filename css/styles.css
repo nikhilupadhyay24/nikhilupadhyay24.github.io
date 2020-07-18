@@ -86,24 +86,6 @@ body {
     border-color: transparent;
   }
 
-  @media(min-width:768px) {
-    .custom-navbar {
-      border-bottom: 0;
-      background:#1f2833; 
-    }
-
-    .custom-navbar.top-nav-collapse {
-      background: Black;
-      -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-      -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-      box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-      padding: 12px 0;
-    }
-  .mainheading{
-  font-size:100px;
-  text-align:left;
-}
-}
 
    
   .section {
@@ -358,6 +340,10 @@ a.buttoninside:hover, a.buttoninside:active {
 @media screen and (min-width: 768px) {
   .column {
     width: 50%;
+  }
+   .mainheading{
+  font-size:100px;
+  text-align:left;
   }
 }
 
