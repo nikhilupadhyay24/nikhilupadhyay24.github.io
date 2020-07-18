@@ -225,8 +225,12 @@ contact
   padding-left:5px;
   padding-right:5px;
   background-color:#1f2833;
+  color:#66fcf1;
   text-align:center;
-  color:Black; 
+ 
+}
+.contactme .heading{
+  color:#66fcf1;
 }
 /*social icon*/
 .socialicon{
@@ -349,7 +353,7 @@ a.buttoninside:hover, a.buttoninside:active {
 
 /* Content */
 .portcontent {
-  background-color: white;
+  background-color: #f1f1f1;
   border-radius:10px;
   
 }
