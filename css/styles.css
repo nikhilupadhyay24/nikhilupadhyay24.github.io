@@ -31,11 +31,7 @@ body {
   }
 
   .custom-navbar .navbar-brand {
-	
-    color: #66fcf1;
-    font-size: 25px;
-    font-weight: 700;
-    letter-spacing: -1px;
+	margin-top:-5px;
  }
 
 
