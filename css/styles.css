@@ -264,7 +264,7 @@ a.buttoninside:hover, a.buttoninside:active {
 */
 
 
-.avatar {
+.avatar{
 	width: 70%;
 	height: auto;
   border-radius: 50%;
@@ -362,11 +362,13 @@ a.buttoninside:hover, a.buttoninside:active {
  
  
  .buttoninside{
+   margin:auto;
+   width:50%;
    display:grid;
    place-items:center;
    margin-top:2em;
    font-size:20px;
-   padding:20px 50px;
+   padding:20px;
    color:#a9acc0;
    border:none;
    border-radius:35px;
@@ -383,7 +385,4 @@ a.buttoninside:hover, a.buttoninside:active {
  }
  .mainheading{
    margin-bottom:2em;
- }
- .buttonlay{
-   alignment-adjust:center;
  }
