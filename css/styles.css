@@ -31,27 +31,18 @@ body {
   }
 
   .custom-navbar .navbar-brand {
-	margin-top:-5px;
+	margin-left:20px;
  }
 
 
-  .top-nav-collapse {
-    background: #1f2833;
-  }
-
-  .custom-navbar .navbar-nav.navbar-right li a {
-    padding-right: 12px;
-    padding-left: 12px;
-  }
-
-  .custom-navbar .nav li a {
+  .nav li a {
+	display:flex;
     font-size: 14px;
     font-weight: 500;
     color: #66fcf1;
-	text-align:center;
+	justify-content:center;
     letter-spacing: -0.5px;
-    padding-right: 22px;
-    padding-left: 22px;
+    padding: 5px;
   }
 
   .custom-navbar .nav li a:hover {
@@ -69,23 +60,19 @@ body {
     color: #a43f49;
   }
 
-  .custom-navbar .navbar-toggle {
-    border: none;
-    padding-top: 10px;
-  }
-
-  .custom-navbar .navbar-toggle {
+  .custom-navbar .navbar-toggler {
+	
+    border-color:#66fcf1;
+	margin-right:10px;
+	color:#66fcf1;
     background-color: transparent;
 	border-style:solid;
 	border-radius:10px;
-	border-color:#66fcf1;
   }
 
-  .custom-navbar .navbar-toggle .icon-bar {
-    background: #66fcf1;
-    border-color: transparent;
+  .custom-navbar .navbar-toggler-icon{
+            background-image: url( "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(102, 252, 241, 0.8)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
   }
-
 
    
   .section {
