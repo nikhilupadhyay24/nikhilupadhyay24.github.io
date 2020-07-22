@@ -238,8 +238,7 @@ contact
   padding:3px 10px 2px;
   color:#1f2833;
   }
-
-  
+/*
   a.buttoninside:link, a.buttoninside:visited {
   background-color: #1f2833;
   color: #66fcf1;
@@ -262,7 +261,7 @@ a.buttoninside:hover, a.buttoninside:active {
   margin-top:5em;
   
 }
-
+*/
 
 
 .avatar {
@@ -359,4 +358,32 @@ a.buttoninside:hover, a.buttoninside:active {
   }
  .arrow-down{
    margin-top:5em;
+ }
+ 
+ 
+ .buttoninside{
+   display:grid;
+   place-items:center;
+   margin-top:2em;
+   font-size:20px;
+   padding:20px 50px;
+   color:#a9acc0;
+   border:none;
+   border-radius:35px;
+   background:#1f2833;
+   box-shadow:8px 8px 10px #12131c,
+   -8px -8px 10px #1c1e2c;
+   letter-spacing:1.2px;
+   transition:all 0.25s ease-in-out;
+ }
+ .buttoninside:hover{
+   transform:scale(0.97);
+   font-size:19px;
+   background:linear-gradient(to bottom right,#0b0d17,#212333);
+ }
+ .mainheading{
+   margin-bottom:2em;
+ }
+ .buttonlay{
+   alignment-adjust:center;
  }
