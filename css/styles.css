@@ -43,6 +43,8 @@ body {
 	justify-content:center;
     letter-spacing: -0.5px;
     padding: 5px;
+	padding-left:22px;
+	padding-right:22px;
   }
 
   .custom-navbar .nav li a:hover {
@@ -225,30 +227,6 @@ contact
   padding:3px 10px 2px;
   color:#1f2833;
   }
-/*
-  a.buttoninside:link, a.buttoninside:visited {
-  background-color: #1f2833;
-  color: #66fcf1;
-  border:1px solid #66fcf1;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  width:50%;
-}
-
-a.buttoninside:hover, a.buttoninside:active {
-  background-color: #66fcf1;
-  color:#1f2833;
-}
-.buttonlay{
-  padding:10px; 
-}
-.button{
-  margin-top:5em;
-  
-}
-*/
 
 
 .avatar{
@@ -260,20 +238,19 @@ a.buttoninside:hover, a.buttoninside:active {
 }
 
 .profile__avatar {
-  position: absolute;
-  z-index: 1;
-  left: 50%;
-  transform: translateX(-50%);
   border-radius: 50%;
   margin-top:10px;
-  overflow: hidden;
   width: 15em;
   height: 15em;
-  display: block;
+  border:none;
   
 }
+.avatarcenter{
+  overflow:hidden;
+  display:flex;
+  justify-content:center;
+}
 .aboutcontent{
-  margin-top:15.001em;
   padding-bottom:50px;
   padding-left:20px;
   padding-right:20px;
@@ -284,6 +261,7 @@ a.buttoninside:hover, a.buttoninside:active {
 
 
 .portfolio-image{
+ 
   width:100%;
   border-top-left-radius:10px;
   border-top-right-radius:10px;
