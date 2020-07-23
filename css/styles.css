@@ -1,5 +1,5 @@
 body {
-
+position:relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -51,18 +51,7 @@ NAVBAR
   }
 
   .custom-navbar .nav li a:hover {
-    background: transparent;
     color: #45a29e;
-  }
-
-  .custom-navbar .navbar-nav > li > a:hover,
-  .custom-navbar .navbar-nav > li > a:focus {
-    background-color: transparent;
-  }
-
-  .custom-navbar .nav li.active > a {
-    background-color: transparent;
-    color: #a43f49;
   }
 
   .custom-navbar .navbar-toggler {

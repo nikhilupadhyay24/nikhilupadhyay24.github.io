@@ -23,7 +23,6 @@ window.onload=function typeWriter() {
     k++;
     setTimeout(typeWriter, speed);
   }
-}
-
+};
 
 
