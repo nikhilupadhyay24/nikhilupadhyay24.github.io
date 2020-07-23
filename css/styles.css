@@ -22,7 +22,10 @@ body {
     linear-gradient(to bottom,#45ABA8 0.2px, transparent 0.8px);
   
 }
+/*===================================
 
+NAVBAR
+===================================*/
   .custom-navbar {
     border: none;
     margin-bottom: 0;
@@ -171,10 +174,10 @@ body {
   top: -2px;
 }
 
+/*===================================
+Contact
+===================================*/
 
-/*
-contact
-*/
 .contactme-top{
   clip-path: polygon(0% 83.33%, 100% 0%, 100% 100%, 0% 100%);
   background-color:#1f2833;
@@ -195,12 +198,18 @@ contact
 .contactme .heading{
   color:#66fcf1;
 }
-/*social icon*/
+
+/*===================================
+social icon
+===================================*/
+
 .socialicon{
   margin:5px 5px;
 }
 
-
+/*===================================
+Progress bar
+===================================*/
 .progress{
   position:relative;
   height:25px;
@@ -230,7 +239,9 @@ contact
   color:#1f2833;
   }
 
-
+/*===================================
+profile photo
+===================================*/
 .avatar{
 	width: 70%;
 	height: auto;
@@ -252,6 +263,10 @@ contact
   display:flex;
   justify-content:center;
 }
+
+/*===================================
+about
+===================================*/
 .aboutcontent{
   padding-bottom:50px;
   padding-left:20px;
@@ -261,7 +276,9 @@ contact
 
 
 
-
+/*===================================
+portfolio
+===================================*/
 .portfolio-image{
  
   width:100%;
@@ -327,7 +344,9 @@ contact
    margin-top:5em;
  }
  
- 
+ /*===================================
+button
+===================================*/
  .buttoninside{
    margin:auto;
    width:50%;
