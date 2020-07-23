@@ -337,6 +337,9 @@ portfolio
   font-size:100px;
   text-align:left;
   }
+  .size{
+	height:100px;
+  }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -347,6 +350,9 @@ portfolio
   .mainheading{
   font-size:20vw;
   text-align:left;
+}
+.size{
+  height:20vw;
 }
   }
  
@@ -376,8 +382,7 @@ button
    background:linear-gradient(to bottom right,#0b0d17,#212333);
  }
  .mainheading{
-  margin-bottom:10px;
-  height:50vh;
+  margin-bottom:1.5em;
  }
 
 

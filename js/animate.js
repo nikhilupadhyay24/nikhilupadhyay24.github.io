@@ -4,7 +4,7 @@ var j=0;
 var k=0;
 var txt1 = 'Hey,';
 var txt2='I am';
-var txt3='Nikhil.';
+var txt3='Nikhil';
 var speed = 300;
 
 window.onload=function typeWriter() {
