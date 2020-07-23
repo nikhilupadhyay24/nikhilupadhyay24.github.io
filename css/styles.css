@@ -349,9 +349,6 @@ portfolio
   text-align:left;
 }
   }
- .arrow-down{
-   margin-top:5em;
- }
  
  /*===================================
 button
@@ -379,5 +376,10 @@ button
    background:linear-gradient(to bottom right,#0b0d17,#212333);
  }
  .mainheading{
-   margin-bottom:2em;
+  margin-bottom:10px;
+  height:50vh;
  }
+
+
+
+
