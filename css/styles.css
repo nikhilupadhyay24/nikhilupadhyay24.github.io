@@ -9,6 +9,7 @@ position:relative;
   font-family: 'Roboto Mono', monospace;
 }
 .bg{
+  overflow:hidden;
   background-size: 50px 50px;
   background-image:
     linear-gradient(to right, #45ABA8 1px, transparent 1px),
