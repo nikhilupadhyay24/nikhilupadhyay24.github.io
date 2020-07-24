@@ -27,11 +27,11 @@
     <![endif]-->
   </head>
 
-  <body onload="myFunction()">
+  <body>
 	<!--=========================================================================
 	Preloader
 	=========================================================================-->
-	
+	<div class="preloader"><div class="load"></div></div>
 	<div class="bg">
 	  <div class="bgdetail">
 		
@@ -303,7 +303,11 @@
 		</div>
 
 
-
+<script>
+  setTimeout(function(){
+  $('.preloader').fadeToggle();
+  },1500);
+</script>
 
 <script src="../js/animate.js"></script>
 

@@ -7,7 +7,7 @@ var txt2='I am';
 var txt3='Nikhil';
 var speed = 300;
 
-window.onload=function typeWriter() {
+setInterval(function typeWriter() {
   if (i < txt1.length) {
     document.getElementById("line1").innerHTML += txt1.charAt(i);
     i++;
@@ -23,6 +23,6 @@ window.onload=function typeWriter() {
     k++;
     setTimeout(typeWriter, speed);
   }
-};
+},2000);
 
 

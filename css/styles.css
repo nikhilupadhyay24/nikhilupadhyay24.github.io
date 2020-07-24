@@ -375,9 +375,11 @@ button
 
 /*
 preloader
-*//*
+*/
 .preloader{
+  position:fixed;
   display:flex;
+  z-index:99999;
   height:100vh;
   width:100vw;
   background:#212333;
@@ -408,6 +410,4 @@ preloader
 	filter:blur(2px);
   }
 }
-*/
 
-.
