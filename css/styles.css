@@ -255,7 +255,7 @@ profile photo
   width: 15em;
   height: 15em;
   border:none;
-  background-color:#f1f1f1;
+  background:radial-gradient(circle,#666666,#1f2833);
   
 }
 .avatarcenter{
